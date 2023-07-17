@@ -7,14 +7,14 @@ setup(
     name='stac_cat_utils',
     version='0.1.0',
     description='Package of utility functions facilitating generation of STAC files from existing files and folders.',
-    url='https://github.com/orgs/SpaceApplications/',   #TODO: add repo
+    url='https://github.com/SpaceApplications/stac-cat-utils',
     author='Space Applications Services',
-    author_email='spaceapps@spaceapplications.com',
+    author_email='sys_eos@spaceapplications.com',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    packages=['stac-cat-utilr', 'stac_cat_utils/slc'],
+    packages=['stac_cat_utils', 'stac_cat_utils/slc'],
     keywords='STAC, pystac, STAC generation',
-    python_requires='>=3.6',
+    python_requires='>=3.8',
     license='BSD',
     install_requires=[
         'stactools==0.4.5',
